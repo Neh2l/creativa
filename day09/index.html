@@ -1,131 +1,153 @@
 <!DOCTYPE html>
-<html lang="ar">
+<html lang="ar" dir="ltr">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Pricing Example</title>
     <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/style.css" />
   </head>
+
   <body>
-    <nav class="navbar navbar-dark bg-dark">
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
       <div class="container-fluid">
-        <span class="navbar-brand mb-0 h1">🔳 Paricing Example</span>
+        <a class="navbar-brand" href="#">Pricing Example</a>
         <button
           class="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNav"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span class="navba r-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <a class="nav-link text-white" href="#">Features</a>
-          <a class="nav-link text-white" href="#">Enterprise</a>
-          <a class="nav-link text-white" href="#">Support</a>
-          <a class="nav-link text-white" href="#">pricing</a>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Enterprise</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Support</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Pricing</a>
+            </li>
+          </ul>
         </div>
       </div>
     </nav>
-
-    <div class="container text-center">
-      <div class="pricing-title">
+    <main class="bg-dark">
+      <div class="container text-center">
         <h2>Pricing</h2>
-        <div>
-          Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit.<br />Doloribus
-          Quasi Numquam Nam Nobis Id Ipsa Illum Laudantium
-        </div>
-      </div>
-      <div class="row g-4 justify-content-center">
-        <div class="col-12 col-sm-6 col-lg-4 mb-3">
-          <div class="card p-4 h-100">
-            <h4>free</h4>
-            <h2>$0/mo</h2>
-            <div>
-              10 users included<br />2 GB of storage<br />Email support<br />Help
-              center access
-            </div>
-            <a href="#" class="btn btn-primary mt-3">sign up for free</a>
-          </div>
-        </div>
-        <div class="col-12 col-sm-6 col-lg-4 mb-3">
-          <div class="card p-4 h-100">
-            <h4>Pro</h4>
-            <h2>$15/mo</h2>
-            <div>
-              20 users included<br />10 GB of storage<br />Priority email
-              support<br />Help center access
-            </div>
-            <a href="#" class="btn btn-primary mt-3">sign up for free</a>
-          </div>
-        </div>
-        <div class="col-12 col-sm-6 col-lg-4 mb-3">
-          <div class="card p-4 h-100">
-            <h4>Enterprise</h4>
-            <h2>$29/mo</h2>
-            <div>
-              30 users included<br />15 GB of storage<br />Priority email
-              support<br />Help center access
-            </div>
-            <a href="#" class="btn btn-primary mt-3">sign up for free</a>
-          </div>
-        </div>
-      </div>
+        <p class="text-muted">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.<br />
+          Doloribus quasi numquam nam nobis id ipsa illum laudantium.
+        </p>
 
-      <h3 class="mt-5 mb-3">Compare Plans</h3>
-      <div class="table-responsive mb-5">
-        <table class="table table-dark table-bordered">
-          <thead>
-            <tr>
-              <th></th>
-              <th>Free</th>
-              <th>Pro</th>
-              <th>Enterprise</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Public</td>
-              <td>T</td>
-              <td>T</td>
-              <td>T</td>
-            </tr>
-            <tr>
-              <td>Private</td>
-              <td></td>
-              <td>T</td>
-              <td>T</td>
-            </tr>
-            <tr>
-              <td>Permissions</td>
-              <td></td>
-              <td>T</td>
-              <td>T</td>
-            </tr>
-            <tr>
-              <td>Sharing</td>
-              <td></td>
-              <td>T</td>
-              <td>T</td>
-            </tr>
-            <tr>
-              <td>Unlimited Members</td>
-              <td></td>
-              <td></td>
-              <td>T</td>
-            </tr>
-            <tr>
-              <td>Extra Security</td>
-              <td></td>
-              <td></td>
-              <td>T</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
+        <div class="row g-4 justify-content-center">
+          <div class="col-12 col-sm-6 col-lg-4">
+            <div class="card h-100 bg-dark text-light">
+              <div class="card-body">
+                <h4 class="card-title">Free</h4>
+                <h2>$0/mo</h2>
+                <p class="card-text">
+                  10 users included<br />2 GB of storage<br />Email support<br />Help
+                  center access
+                </p>
+                <a href="#" class="btn btn-primary">Sign up for free</a>
+              </div>
+            </div>
+          </div>
 
-    <footer class="footer mt-5">
+          <div class="col-12 col-sm-6 col-lg-4">
+            <div class="card h-100 bg-dark text-light">
+              <div class="card-body">
+                <h4 class="card-title">Pro</h4>
+                <h2>$15/mo</h2>
+                <p class="card-text">
+                  20 users included<br />10 GB of storage<br />Priority email
+                  support<br />Help center access
+                </p>
+                <a href="#" class="btn btn-primary">Get started</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-lg-4">
+            <div class="card h-100 bg-dark text-light">
+              <div class="card-body">
+                <h4 class="card-title">Enterprise</h4>
+                <h2>$29/mo</h2>
+                <p class="card-text">
+                  30 users included<br />15 GB of storage<br />Priority email
+                  support<br />Help center access
+                </p>
+                <a href="#" class="btn btn-primary">Contact us</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <h3 class="mt-5 mb-3">Compare Plans</h3>
+        <div class="table-responsive">
+          <table
+            class="table table-bordered table-striped text-center table-dark"
+          >
+            <thead class="table-dark">
+              <tr>
+                <th>Feature</th>
+                <th>Free</th>
+                <th>Pro</th>
+                <th>Enterprise</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Public</td>
+                <td>T</td>
+                <td>T</td>
+                <td>T</td>
+              </tr>
+              <tr>
+                <td>Private</td>
+                <td></td>
+                <td>T</td>
+                <td>T</td>
+              </tr>
+              <tr>
+                <td>Permissions</td>
+                <td></td>
+                <td>T</td>
+                <td>T</td>
+              </tr>
+              <tr>
+                <td>Sharing</td>
+                <td></td>
+                <td>T</td>
+                <td>T</td>
+              </tr>
+              <tr>
+                <td>Unlimited Members</td>
+                <td></td>
+                <td></td>
+                <td>T</td>
+              </tr>
+              <tr>
+                <td>Extra Security</td>
+                <td></td>
+                <td></td>
+                <td>T</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </main>
+    <footer class="bg-dark text-white py-4 m-0">
       <div class="container">
         <div class="row text-center">
           <div class="col-12 col-sm-6 col-lg-3">© 2017–2023</div>
@@ -141,6 +163,7 @@
         </div>
       </div>
     </footer>
+
     <script src="js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
