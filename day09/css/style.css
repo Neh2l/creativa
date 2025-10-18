@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.child{
+    width: 33%;
+    height: 20vh;
+    background-color: brown;
+}
+.parent{
+    display: flex;
+    align-items: center;
+    gap: .4rem;
+}
+
+@media(min-width:0px) and (max-width:567px){
+    body{
+        background-color: rgb(236, 191, 191);
+    }
+      .child{
+        width: 100%;
+    }
+    .parent{
+        flex-wrap: wrap;
+    }
+   
+}
+@media(min-width:577px) and (max-width:768px){
+    body{
+        background-color: rgb(226, 195, 195);
+    }
+    .child{
+        width: 45%;
+        margin: auto;
+    }
+    .parent{
+        margin: auto;
+        flex-wrap: wrap;
+        /* align-items: center; */
+    }
+}

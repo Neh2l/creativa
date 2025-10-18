@@ -1,0 +1,245 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  color: #333;
+}
+.fa-solid{
+   color: salmon;
+   font-size: 2rem;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 10vh;
+  padding: 1rem 0;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+li {
+  list-style: none;
+}
+
+.nav_item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.nav_item button {
+  padding: 0.3rem 1rem;
+  border: none;
+  border-radius: 0.2rem;
+  cursor: pointer;
+}
+
+header {
+  background-image: linear-gradient(to left, rgba(0,0,0,0.137), rgba(0,0,0,0.829)), url(../imgs/cut.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+  color: white;
+}
+
+.hero {
+  width: 60%;
+  margin: auto;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.btns {
+  display: flex;
+  gap: 1rem;
+}
+
+.btn1,
+.btn2 {
+  width: 120px;
+  height: 40px;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+
+.btn1 {
+  background-color: rgb(223, 77, 77);
+  color: white;
+  border: none;
+}
+
+.btn2 {
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+}
+
+.cards1, .cards2, .cards3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.card1, .card2, .card3 {
+  width: 260px;
+  text-align: center;
+  box-shadow: 0 0 4px rgba(128, 128, 128, 0.507);
+  padding: 1rem;
+  border-radius: .5rem;
+}
+
+.section1, .section2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3rem 0;
+  gap: 3rem;
+}
+
+.section1 img, .section2 img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 0.4rem;
+}
+.section1 .right .content{
+   display: flex;
+   flex-direction: column;
+   gap: 1rem;
+}
+.section2 .left{
+    display: flex;
+   flex-direction: column;
+   gap: 1rem;
+
+}
+
+.section3 {
+  background-color: rgb(223, 77, 77);
+  color: white;
+  text-align: center;
+  padding: 4rem 0;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+.section4{
+    text-align: center;
+  padding: 4rem 0;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+
+}
+.section4 .content3{
+   width: 50%;
+   display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.section3 .content2 {
+     display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 70%;
+  margin: auto;
+}
+
+.reviews {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin: 3rem 0;
+}
+
+.review {
+  width: 30%;
+  min-width: 280px;
+  box-shadow: 0 0 4px gray;
+  text-align: center;
+  padding: 1rem;
+}
+
+.btns2 {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.btns2 button {
+  padding: 5px 10px;
+  border: 1px solid salmon;
+  background-color: white;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+
+.end {
+  background-image: linear-gradient(to left, rgba(0,0,0,0.137), rgba(0,0,0,0.829)), url(../imgs/cut.jpg);
+  height: 50vh;
+  background-size: cover;
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.end button {
+  padding: 10px 20px;
+  background-color: salmon;
+  color: white;
+  border: none;
+  border-radius: 0.3rem;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+.socialicons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+

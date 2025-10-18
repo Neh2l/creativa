@@ -1,0 +1,78 @@
+body{
+    background-color: bisque;
+}
+.hover{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+     background-color: brown;
+     transition-property: width,height,background-color;
+    transition-duration: 1s,5s,10s;
+    transition-delay: 1s,5s,10s;
+}
+.hover:hover{
+    height: 300px;
+    width: 200px;
+    background-color: rgb(95, 64, 64);
+}
+.mydiv{
+      width: 100px;
+    height: 100px;
+    margin: auto;
+    margin-top: 2rem;
+     background-color: brown;
+     animation-name: anmite1;
+     animation-duration: 2s;
+    animation-iteration-count: 3;
+
+}
+
+@keyframes anmite1{
+    0%{
+        background-color: black;
+        border: 1px solid;
+    }
+    25%{
+        background-color: rgb(228, 143, 143);
+
+    }
+     50%{
+        background-color: rgb(110, 67, 67);
+
+    }
+
+}
+.child1,.child2,.child3,.child4{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: black;
+    margin: 1rem;
+    animation-fill-mode: forwards;
+    animation-name: mydiv;
+    animation-duration: 3S;
+    border: 5px solid salmon;
+}
+.child1{
+    animation-timing-function: ease;
+}
+.child2{
+    animation-timing-function: ease-in;
+}
+.child3{
+    animation-timing-function: ease-in-out;
+}
+.child4{
+    animation-timing-function: linear;
+}
+ @keyframes mydiv{
+    0%{
+    transform: translateX(0px);
+    }
+     50%{
+    transform: translateX(1000PX);
+    }
+     100%{
+    /* transform: translateX(-200px); */
+    }
+ }

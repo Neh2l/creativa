@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+      font-family: "DM Sans", sans-serif;
+
+}
+.nav_items{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem;
+    background-color: brown;
+    color: aliceblue;
+}
+.hero{
+    background-color: rgb(236, 217, 191);
+    color: black;
+    margin: 50px 50px;
+    /* margin: auto; */
+    padding: 2rem;
+    border-radius: 10px;
+    height: 100vh;
+    box-shadow: 0 0 5px black inset;
+}
+.hero>p{
+    /* max-width: 800px; */
+}
