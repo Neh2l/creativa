@@ -1,0 +1,86 @@
+body {
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #111 !important;
+}
+
+/* Hero Section */
+.hero {
+  background: #000;
+  padding-top: 120px;
+  padding-bottom: 80px;
+}
+
+.hero img {
+  border: 5px solid #16a34a;
+}
+
+.btn-success {
+  background-color: #16a34a;
+  border: none;
+  box-shadow: 0 0 15px rgba(22, 163, 74, 0.6);
+  transition: 0.3s;
+}
+
+.btn-success:hover {
+  background-color: #22c55e;
+  transform: translateY(-2px);
+}
+
+/* Case Studies */
+.case-studies img {
+  border-radius: 15px;
+}
+
+.case-studies p {
+  line-height: 1.6;
+}
+
+/* Testimonials */
+#testimonials {
+  background-color: #111;
+}
+
+.testimonial-box {
+  background-color: #1f1f1f;
+  border: 1px solid #333;
+  transition: 0.3s;
+}
+
+.testimonial-box:hover {
+  transform: translateY(-5px);
+  border-color: #16a34a;
+}
+
+/* Recent Work */
+#recent .card {
+  transition: transform 0.3s ease;
+}
+
+#recent .card:hover {
+  transform: translateY(-5px);
+}
+
+/* Contact */
+#contact input,
+#contact textarea {
+  background-color: #1f1f1f;
+  border: 1px solid #333;
+  color: #fff;
+}
+
+#contact input::placeholder,
+#contact textarea::placeholder {
+  color: #aaa;
+}
+
+/* Footer */
+footer {
+  background-color: #0a0a0a;
+  color: #888;
+  font-size: 14px;
+}
